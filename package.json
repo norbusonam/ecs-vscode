@@ -20,7 +20,18 @@
         "command": "ecs-vscode.helloWorld",
         "title": "Hello World"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "ECS VSCode",
+      "properties": {
+        "ecs-vscode.ecsUrl": {
+          "type": "string"
+        },
+        "ecs-vscode.jsonResponsePath": {
+          "type": "string"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
